@@ -4,6 +4,7 @@ nav {
       display: flex;
       gap: 1rem;
       justify-content: flex-end;
+      align-items: center;
     }
     li {
       list-style: none;
