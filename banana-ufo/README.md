@@ -1,8 +1,10 @@
 # 🍌 banana-ufo 🛸
 
+School assignment, cloned base project from from Niklas Mårdby:
+
 A tiny experimental repo for students
 
-Author: Niklas Mårdby
+"Author: Niklas Mårdby
 
 Färgtema: https://coolors.co/0d160b-774936-f7e9a1-ff62cd-3bf4fb
 
@@ -16,4 +18,4 @@ cd banana-ufo
 yarn
 yarn build
 yarn start
-```
+```"
