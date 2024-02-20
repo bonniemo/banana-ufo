@@ -1,0 +1,14 @@
+.UfoList {
+    margin: 3rem 0;
+    h2 {
+        font-size: 2rem;
+        color: hotpink;
+    }
+    ul {
+        list-style: none;
+
+        li {
+            margin: .5rem 0;
+        }
+    }
+}

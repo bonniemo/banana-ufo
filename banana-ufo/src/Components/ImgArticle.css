@@ -1,0 +1,29 @@
+.imgArticle {
+    display: flex;
+    gap: 1rem;
+    max-height: 70vh;
+    margin: 1rem 0rem;
+
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 6/9;
+        border-radius: 1rem;
+        
+    }
+}
+
+.btn {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.cta {
+    background-color: yellow;
+}
+
+.login {
+    border: 5px dotted black;
+    background-color: hotpink;
+}
