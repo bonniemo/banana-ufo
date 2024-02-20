@@ -1,0 +1,14 @@
+.btn {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    
+    &.cta {
+        background-color: yellow;
+    }
+    
+    &.login {
+        border: 5px dotted black;
+        background-color: hotpink;
+    }
+}

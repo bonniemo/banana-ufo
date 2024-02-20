@@ -1,57 +1,21 @@
 import './App.css';
-import './components/ImgArticle.css';
 import './components/Heading.css';
-import './components/UfoList.css';
-
-import blackDog from './images/dog-black.jpg';
-import chainDog from './images/dog-chain.jpg';
-import sleepyDog from './images/dog-sleepy.jpg';
-
-
+import Btn from './Components/Buttons/Buttons.jsx';
+import Nav from './Components/Nav/Nav.jsx';
+import ImgArticle from './Components/ImgArticle/ImgArticle.jsx';
+import UfoList from './Components/UfoList/UfoList.jsx';
 
 const App = () => {
     return <>
-        <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">BananaWorld</a></li>
-          <li><a href="#">UfoWorld</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <main>
-      <h1 className='header'>🍌 Hello BananaWorld! 🛸</h1>
-
+        <Nav />        
         
-        <article className='imgArticle'>
-          <img src={blackDog} alt="" />
-          <img src={sleepyDog} alt="" />
-          <img src={chainDog} alt="" />
-        </article>
-        
+        <h1 className='header'>🍌 Hello BananaWorld! 🛸</h1>
 
-        <button className='btn primary'>btn</button>
-        <button className='btn cta'>btn</button>
-        <button className='btn login'>btn</button>
-      </main>
+        <ImgArticle />
 
-      <article className='UfoList'>
-        <ul>
-          <h2>Most wanted Ufos</h2>
-          <li>Millennium Falcon</li>
-          <li>USS Enterprise</li>
-          <li>TARDIS</li>
-          <li>Serenity</li>
-          <li>Discovery One</li>
-          <li>Nostromo</li>
-          <li>Battlestar Galactica</li>
-          <li>Event Horizon</li>
-          <li>Sulaco</li>
-          <li>Heart of Gold</li>
-        </ul>
+        <Btn />        
 
-      </article>
-        
+        <UfoList />
     </>
 }
 
