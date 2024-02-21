@@ -1,6 +1,6 @@
 import './UfoList.css';
 
-function UfoList() {
+const UfoList = () => {
     let UfoListTitle = 'Slowst ships in the Galaxy'
     return (
         <>

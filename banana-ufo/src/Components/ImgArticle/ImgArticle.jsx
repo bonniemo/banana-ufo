@@ -4,7 +4,7 @@ import blackDog from '../../images/dog-black.jpg';
 import chainDog from '../../images/dog-chain.jpg';
 import sleepyDog from '../../images/dog-sleepy.jpg';
 
-function ImgArticle() {
+const ImgArticle = () => {
     return (
         <>
          <article className='imgArticle'>

@@ -1,6 +1,6 @@
 import './Buttons.css';
 
-function Btn() {
+const Btn = () => {
     let ctaBtn = 'Sign Up Later'
     return (
         <>

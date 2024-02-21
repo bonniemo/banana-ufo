@@ -1,6 +1,6 @@
 import './Nav.css';
 
-function Nav() {
+const Nav = () => {
   let navBtn = 'Log Out'
     return (
         <>

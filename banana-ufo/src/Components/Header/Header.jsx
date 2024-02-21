@@ -1,6 +1,6 @@
 import './Header.css';
 
-function Header() {
+const Header = () => {
     return (
         <>
             <h1 className='header'>🍌 Hello BananaWorld! 🛸</h1>
