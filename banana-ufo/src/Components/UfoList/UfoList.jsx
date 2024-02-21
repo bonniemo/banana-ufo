@@ -1,11 +1,12 @@
 import './UfoList.css';
 
 function UfoList() {
+    let UfoListTitle = 'Slowst ships in the Galaxy'
     return (
         <>
             <article className='UfoList'>
                 <ul>
-                    <h2>Most wanted Ufos</h2>
+                    <h2>{UfoListTitle}</h2>
                     <li>Millennium Falcon</li>
                     <li>USS Enterprise</li>
                     <li>TARDIS</li>

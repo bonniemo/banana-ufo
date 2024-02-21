@@ -7,11 +7,11 @@ import Header from './Components/Header/Header.jsx';
 
 const App = () => {
     return <>
-        <Nav />        
+        <Nav/>        
         <Header/>      
-        <ImgArticle />
-        <Btn />        
-        <UfoList />
+        <ImgArticle/>
+        <Btn/>        
+        <UfoList/>
     </>
 }
 

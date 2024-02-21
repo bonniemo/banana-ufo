@@ -1,9 +1,10 @@
 import './Buttons.css';
 
 function Btn() {
+    let ctaBtn = 'Sign Up Later'
     return (
         <>
-        <button className='btn cta'>Sign Up Now</button>              
+        <button className='btn cta'>{ctaBtn}</button>              
         </>
     )
 }
