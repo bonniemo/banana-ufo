@@ -1,7 +1,7 @@
 .DinoInfoBox {
   width: 90vw;
   margin: auto;
-  padding: .5rem;
+  padding: 1rem;
   background-color: rgb(161, 154, 154);
   color: black;
 
@@ -21,10 +21,8 @@
     }
   }
   img {
-    width: 60%;
+    width: 50%;
     display: block;
-
-    aspect-ratio: 16/9;
-    object-fit: cover;
+    object-fit: contain;
   }
 }

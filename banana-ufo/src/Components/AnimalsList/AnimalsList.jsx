@@ -14,3 +14,5 @@ const AnimalsList = ({ animals, ordered }) => {
 }
 
 export default AnimalsList;
+
+
