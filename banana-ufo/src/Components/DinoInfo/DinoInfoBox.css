@@ -1,0 +1,30 @@
+.DinoInfoBox {
+  width: 90vw;
+  margin: auto;
+  padding: .5rem;
+  background-color: rgb(161, 154, 154);
+  color: black;
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .DinoInfoBody {
+    display: flex;
+    justify-content: space-between;    
+    line-height: 2;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+  }
+  img {
+    width: 60%;
+    display: block;
+
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+}
