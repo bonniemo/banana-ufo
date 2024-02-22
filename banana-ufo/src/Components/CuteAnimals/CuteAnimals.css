@@ -1,0 +1,25 @@
+.CuteAnimalsBox {
+    background-color: hotpink;
+    margin: 3rem 0;
+    padding: .5rem;
+}
+
+.CuteAnimalCard {
+    max-width: 20rem;
+
+    img {
+        width: 100%;
+        display: block;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+    }
+
+}
+
+.CardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
