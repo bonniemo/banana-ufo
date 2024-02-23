@@ -1,0 +1,24 @@
+.duckBox {
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: black;
+
+}
+
+.Yellow {
+    background-color: rgb(244, 226, 111);
+}
+.Blue {
+    background-color: rgb(113, 113, 212);
+}
+
+.Red {
+    background-color: rgb(212, 89, 89);
+}
+
+.Green {
+    background-color: mediumseagreen;
+}
