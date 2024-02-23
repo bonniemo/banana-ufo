@@ -7,6 +7,14 @@ import Header from './Components/Header/Header.jsx';
 import CuteAnimalsBox from './Components/CuteAnimals/CuteAnimalsBox.jsx';
 import AnimalsList from './Components/AnimalsList/AnimalsList.jsx';
 import DinoInfoBox from './Components/DinoInfo/DinoInfoBox.jsx';
+import AnimalLegList from './Components/AnimalLegList/AnimalLegList.jsx';
+
+const animals = [
+    { name: "Horse", legs: 4 },
+    { name: "Spider", legs: 8 },
+    { name: "Snake", legs: 0 },
+    { name: "Monster", legs: 34 }
+];
 
 const App = () => {
     return <>
@@ -16,7 +24,7 @@ const App = () => {
         <Btn/>
         <CuteAnimalsBox/>        
         <UfoList/>
-        <AnimalsList animals={["dog", "horse", "cow", "cat", "more"]} ordered={false} />
+        <AnimalsList animals={["dog", "horse", "cow", "cat", "more", "dragon"]} ordered={false} />
         <DinoInfoBox
                 name="Diplodocus"
                 discoveryYear={1878}
@@ -26,6 +34,7 @@ const App = () => {
                 image="https://upload.wikimedia.org/wikipedia/commons/f/f7/Misty_Diplodocus.jpg"
                 reverse = {true}
             />
+        <AnimalLegList animals={animals} ordered={true}/>
     </>
 }
 
