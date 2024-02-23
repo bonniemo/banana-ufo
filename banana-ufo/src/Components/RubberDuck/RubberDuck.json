@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "name": "Squeaky",
+            "species": "Rubber Duck",
+            "fun_fact": "Rubber ducks were invented in the late 19th century and were originally made from hard rubber.",
+            "favourite_color": "Yellow"
+        },
+        {
+            "name": "Quackles",
+            "species": "Rubber Duck",
+            "fun_fact": "The world's largest rubber duck measured over 50 feet tall!",
+            "favourite_color": "Blue"
+        },
+        {
+            "name": "Ducky",
+            "species": "Rubber Duck",
+            "fun_fact": "Rubber ducks are often used as symbols for bath time fun, but they're also popular collectibles.",
+            "favourite_color": "Red"
+        },
+        {
+            "name": "Rubberton",
+            "species": "Rubber Duck",
+            "fun_fact": "The traditional yellow rubber duck design was patented in the 1940s.",
+            "favourite_color": "Green"
+        }
+    ]
+}

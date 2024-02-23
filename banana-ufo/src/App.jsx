@@ -8,6 +8,7 @@ import CuteAnimalsBox from './Components/CuteAnimals/CuteAnimalsBox.jsx';
 import AnimalsList from './Components/AnimalsList/AnimalsList.jsx';
 import DinoInfoBox from './Components/DinoInfo/DinoInfoBox.jsx';
 import AnimalLegList from './Components/AnimalLegList/AnimalLegList.jsx';
+import RubberDuckBox from './Components/RubberDuck/RubberDuckBox.jsx';
 
 const animals = [
     { name: "Horse", legs: 4 },
@@ -35,6 +36,7 @@ const App = () => {
                 reverse = {true}
             />
         <AnimalLegList animals={animals} ordered={true}/>
+        <RubberDuckBox/>
     </>
 }
 
